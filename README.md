@@ -24,7 +24,12 @@ This web application should then output a list of expenses, each with the date, 
         ```
         TABLE "userinput_expense" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "date" datetime NOT NULL, "value" integer NOT NULL, "reason" varchar(500) NOT NULL);
          ```
+#### Rough Draft Design
+1. There would be a front-end page that takes in 3 inputs: date, value, reason.
+2. There would be a back-end page that puts the inputs into a table. The table would multiply value by 0.2.
+3. The front-end page would also have a "Retrieve" button that returns the the entire table as a list.
+         
 #### Final Thoughts
-1. 
+1.. My lack of experience in Django made it difficult for me to create a fully-functional website. 
 2. If I had more time, would have ran the application on large-scale "dummy data".
         
